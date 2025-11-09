@@ -692,3 +692,16 @@ aside a:hover {
     margin: 0 5px;
   }
 }
+.logo-img {
+  height: 50px;           
+  width: auto;
+  object-fit: contain;
+  background: none;       /* voorkomt witte blokken */
+  border: none;
+  filter: drop-shadow(0 0 3px rgba(0,0,0,0.3)); /*subtiele diepte */
+}
+
+.navbar {
+  background: rgba(10, 14, 39, 0.95);
+  backdrop-filter: blur(10px);
+}
