@@ -142,3 +142,16 @@ footer {
   margin-right: 5px;
 }
 
+
+
+.card-body p,
+.card-body li,
+.card-body h5,
+.card-body h4,
+.card-body h2 {
+  color: #ffffff;
+}
+
+.card-body i {
+  color: #ffffff;
+}
