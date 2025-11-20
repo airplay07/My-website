@@ -87,22 +87,11 @@ h1, h2, h3 {
   color: #53a8ff;
 }
 
-/* Contact */
-.contact-info {
-  background-color: #16213e;
-  border: 1px solid #0f3460;
-  padding: 30px;
-}
 
-.contact-item {
-  background-color: #0f3460;
-  padding: 15px;
-  margin-bottom: 15px;
-}
-
-.contact-item i {
-  color: #53a8ff;
-  margin-right: 10px;
+.contact-info p,
+.contact-info h5,
+.contact-info h6 {
+  color: #ffffff;
 }
 
 /* Links */
