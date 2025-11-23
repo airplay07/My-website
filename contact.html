@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous" defer></script>
+    <!-- Google reCAPTCHA (optioneel) -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -49,7 +51,9 @@
       <main class="col-md-8">
         <div class="card-custom">
           <h2 class="mb-4">Contactformulier</h2>
-          <form onsubmit="alert('Bedankt voor je bericht!'); return false;">
+          
+          <!-- Netlify Forms -->
+          <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
             <div class="row g-3">
               <div class="col-md-6">
                 <label for="voornaam" class="form-label">Voornaam <span style="color: #ff6b6b;">*</span></label>
@@ -75,6 +79,12 @@
                 <label for="bericht" class="form-label">Bericht <span style="color: #ff6b6b;">*</span></label>
                 <textarea class="form-control" id="bericht" name="bericht" rows="4" required></textarea>
               </div>
+              
+              <!-- reCAPTCHA  -->
+              <div class="col-12">
+                <div data-netlify-recaptcha="true"></div>
+              </div>
+              
               <div class="col-12 text-end">
                 <button type="submit" class="btn btn-primary mt-3">Verzenden</button>
               </div>
@@ -114,7 +124,7 @@
  
   <footer>
     <div class="container">
-      <p>&copy; 2025 Mukhammad Abduev - Portfolio</p>
+      <p>2025 Mukhammad Abduev - Portfolio</p>
     </div>
   </footer>
 </body>
