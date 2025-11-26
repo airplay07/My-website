@@ -206,12 +206,11 @@ footer {
 }
 /* Profiel foto */
 .hero-profile {
-  width: 280px;
-  height: 280px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   border: 4px solid #53a8ff;
   object-fit: cover;
-  box-shadow: 0 4px 20px rgba(83, 168, 255, 0.3);
-  transition: transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(83, 168, 255, 0.25);
 }
  /* ik heb hierbij youtube gebruikt en https://htmlcolorcodes.com/ om de kleurtjes te vinden zo dat ze naar mijn smaak gaan pasen/*
