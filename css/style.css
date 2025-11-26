@@ -207,16 +207,12 @@ footer {
 
 /* PROFIELFOTO */
 .navbar-brand img {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   border: 3px solid #53a8ff;
   object-fit: cover;
   transition: transform 0.3s;
 }
 
-.navbar-brand img:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 15px rgba(83, 168, 255, 0.5);
-}
  /* ik heb hierbij youtube gebruikt en https://htmlcolorcodes.com/ om de kleurtjes te vinden zo dat ze naar mijn smaak gaan pasen/*
